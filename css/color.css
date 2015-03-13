@@ -16,9 +16,9 @@
 }
 
 .btn-custom-border {
-    background: transparent;
-    border-color: #696969;
-    color: #696969;
+    background: #696969;
+    border-color: #696969;        color:#ffffff;
+    /*color: #696969;*/
 }
 .features .feature .icon-container .icon {
     border: 1px solid #da1f3c;
@@ -29,14 +29,10 @@
 }
 
 .btn-send:hover,
-.btn-send:active,
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover, 
-.navbar-default .navbar-toggle:focus,
-.navbar-toggle {
+.btn-send:active {
     background-color: #0088cc;
     border-color: #0088cc;
-}.btn-custom:hover,.btn-custom-border:hover {	background-color: #696969;    border-color: #696969;}.btn-slide:hover {	background-color: #c6c8c8;    border-color: #c6c8c8;}
+}.navbar-default .navbar-toggle{		background-color: #DA1F3C;}.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, {    background-color: #f9405d;}.btn-custom:hover,.btn-custom-border:hover {	background-color: #C6C8C8;    border-color: #C6C8C8;}.btn-slide:hover {	background-color: #c6c8c8;    border-color: #c6c8c8;}
 
 .btn-slide,
 .footer span.jobs {

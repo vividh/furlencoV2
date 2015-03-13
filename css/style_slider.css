@@ -6,17 +6,12 @@
 .intro .intro-slider,
 .intro .intro-slider .item {
     width: 100%;
-    height: 800px;
+    height: 500px;
 }
 
 .intro .intro-slider .item.one {
-    background: url(../images/furlencoImages/hero_furlenco.jpg);
-    background-size: cover;
-}
-
-.intro .intro-slider .item.two {
-    background: url(../images/furlencoImages/hero_furlenco.jpg);
-    background-size: cover;
+    background: url(../images/furlencoImages/hero_image_new.jpg);
+    background-size: 100% 100%;
 }
 
 .intro .intro-slider .item .background-image img {

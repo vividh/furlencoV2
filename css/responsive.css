@@ -1,7 +1,3 @@
-/* Lamap App Landing Page Responsive Stylesheet
-====================================================== */
-
-
 @media (max-width: 1024px) {
 
     .intro,
@@ -18,10 +14,10 @@
     }
     .intro .intro-slider .container .paddingtop {
         margin-top: 0%;
-    }        .intro .intro-slider .container h3 {    font-size: 18px;    line-height: 1.5em;    margin-bottom: 30px;}
-    .intro .intro-slider .container figure img {
-        max-height: 400px;
-    }
+    }     .intro .intro-slider .container h3 {    font-size: 18px;    line-height: 1.5em;    margin-bottom: 30px;}
+.intro .intro-slider .container figure img {
+    max-height: 400px;
+}
 
 }
 
@@ -63,9 +59,9 @@
         font-size: 12px;
     }
     .nav-tabs>li>a {
-        width: 209px;
-    }
-
+        width: 209px;		
+    }    
+.room_section h1{		font-size: 16px;    line-height: 1.5em;    margin-bottom: 5px;        text-align: center;}.room_section h3{		font-size: 14px;    margin-bottom: 15px;        text-align: center;}
 
     /* Intro Section */
     .intro .intro-section {
@@ -154,7 +150,6 @@
         padding: 30px 0;
     }
 
-
     /* Extra Section */
     ul.extra-features {
         max-width: 100%;
@@ -223,25 +218,14 @@
         margin-top: 18px;
         color: #fff;
     }
-    .navbar-default .navbar-toggle,
+    .navbar-default .navbar-toggle{    	background-color: #DA1F3C;    }
     .navbar-default .navbar-toggle:hover, 
     .navbar-default .navbar-toggle:focus {
-        color: #fff;
-
+        background-color:#F9405D ;
     }
 
     /* Extra Section */
-    .nav-tabs {
-        display: block;
-    }
-    .nav-tabs>li {
-        float: none;
-        width: 100%;
-        display: block;
-    }
-    .nav-tabs>li>a {
-        width: 100%;
-    }
+    .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;    }    .nav-tabs>li>a {        width: 100%;    }
     .nav-tabs>li:first-child>a {
         border-top-right-radius: 4px;
         border-bottom-left-radius: 0px;
@@ -276,7 +260,7 @@
 
 @media (max-width: 480px) {
 
-    /* Intro Section */
+    /* Intro Section */      .intro .intro-slider .item.one {	    background: url(../images/furlencoImages/hero_image_small.jpg);		    background-size: 100% 100%;	}
     .intro .intro-slider .container {
         text-align: center; 
         padding: 30px 0px;
@@ -296,7 +280,7 @@
     /* Features Section */
     .features figure img {
         width: 100%;
-    }
+    }        .features h1 {    	font-size:24px;    }        .features p {    	font-size:14px;    }
 
 
     /* Newsletter Section */
@@ -331,17 +315,7 @@
     }
 
     /* Extra Section */
-    .nav-tabs {
-        display: block;
-    }
-    .nav-tabs>li {
-        float: none;
-        width: 100%;
-        display: block;
-    }
-    .nav-tabs>li>a {
-        width: 100%;
-    }
+    .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;    }    .nav-tabs>li>a {        width: 100%;    }
     .nav-tabs>li:first-child>a {
         border-top-right-radius: 4px;
         border-bottom-left-radius: 0px;
