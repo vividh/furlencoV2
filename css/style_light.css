@@ -241,7 +241,7 @@ ul.extra-features i {
 	display: table;	margin: 0 auto;}.list-inline {	display: table;	margin: 0px auto;}.intro-buttons .list-inline {	display: table;	margin: 10px auto 20px;}.brief .list-inline{	display: table;	margin:10px auto;}.packages .list-inline{	display: table;	margin:0px auto 0px;}
 /* Footer Section */
 .footer {
-	padding: 30px 0 20px 0;	background-color: #f2f2f2;}
+	padding: 30px 0 20px 0;	background-color: #FFFFFF;}
 .footer .underline-small {
 	margin: 20px auto;}
 .footer span.jobs {
@@ -249,9 +249,9 @@ ul.extra-features i {
 .footer span.jobs:after {
 	right: 100%;	top: 50%;	border: solid transparent;	content: " ";	height: 0;	width: 0;	position: absolute;	pointer-events: none;	border-width: 5px;	margin-top: -5px;}
 .footer small {
-	font-size: 13px;	color: #666;}
-.footer img {
-	margin-bottom: 30px;}
+	font-size: 13px;	color: #666;}
+.footer img {
+	/*margin-bottom: 30px;*/}
 .footer ul {
 	margin-bottom: 40px;}
 .footer ul li {
@@ -261,4 +261,4 @@ ul.extra-features i {
 .footer i {
 	font-size: 16px;}
 .footer h4 {
-	margin-bottom: 5px;}
+	margin-bottom: 5px;}
