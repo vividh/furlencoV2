@@ -58,7 +58,7 @@ $(document).ready(function() {
 	$('.btn-custom-border, a.mouse').click(function () {
 //		$.scrollTo('.features', 1000);
 	return false;
-	});		$('.btn-brief, a.mouse').click(function () {		$.scrollTo('.brief', 1000);	return false;	});	$('.btn-benefits, a.mouse').click(function () {		$.scrollTo('.packages', 1000);	return false;	});		$('.btn-subscription, a.mouse').click(function () {		$.scrollTo('.features', 1000);	return false;	});
+	});		$('.btn-brief, a.mouse').click(function () {		$.scrollTo('.brief', 1000);		_gaq.push(['_trackEvent', 'button3', 'clicked'])	return false;	});	$('.btn-benefits, a.mouse').click(function () {		$.scrollTo('.packages', 1000);	return false;	});		$('.btn-subscription, a.mouse').click(function () {		$.scrollTo('.features', 1000);	return false;	});
 
 	// Screenshot carousel
 	$(".screens").owlCarousel({
