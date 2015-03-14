@@ -311,7 +311,7 @@
     }
     .brief figure img {
         max-height: 375px;
-    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 160px;                padding:10px 0;    }
+    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }
 
     /* Extra Section */
     .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;    }    .nav-tabs>li>a {        width: 100%;    }
