@@ -53,7 +53,7 @@ figure img {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	z-index: 100;	color: #fff;}
 .nav-tabs > li.active > a {
-	color: #fff;}
+	color: #fff;}.nav-tabs br{	display: none;}
 /* Heading Sizes */
 h1 {
 	font-size: 42px;	font-weight: 300;}
@@ -250,8 +250,8 @@ ul.extra-features i {
 	right: 100%;	top: 50%;	border: solid transparent;	content: " ";	height: 0;	width: 0;	position: absolute;	pointer-events: none;	border-width: 5px;	margin-top: -5px;}
 .footer small {
 	font-size: 13px;	color: #666;}
-.footer img {
-	/*margin-bottom: 30px;*/}
+.footer img {	display: table;
+	margin: 0 auto;}
 .footer ul {
 	margin-bottom: 40px;}
 .footer ul li {
@@ -261,4 +261,4 @@ ul.extra-features i {
 .footer i {
 	font-size: 16px;}
 .footer h4 {
-	margin-bottom: 5px;}
+	margin-bottom: 5px;}#call-back-collapse .collapse{	display: none;	overflow: hidden;}#call-back-collapse .modal-body {    position: relative;  	padding: 0;}#call-back-collapse .modal-content {    -webkit-background-clip: border;    background-clip: border-box;    border: none;    outline: 0;    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .5);    box-shadow: 0 0 0 rgba(0, 0, 0, .5)}
