@@ -300,7 +300,7 @@
     }
     .brief figure img {
         max-height: 375px;
-    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border,    .features .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }        .services .list-inline .btn-custom-border{    	width: 140px;                padding:10px 0;                margin-top:20px;                font-size: 16px;    }      .nav-tabs>li>a {        width: 90px;        font-size: 16px;       	padding:5px 0;		    }        .nav-tabs br{		display: block;	}
+    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border,    .features .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }        .services .list-inline .btn-custom-border{    	width: 140px;                padding:10px 0;                margin-top:20px;                font-size: 16px;    }      .nav-tabs>li>a {        width:100px;        font-size: 16px;       	padding:5px 0;		    }        .nav-tabs br{		display: block;	}
     .tab-content figure img {
         width: 100%;
         z-index: 0;
