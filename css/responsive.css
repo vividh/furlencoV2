@@ -42,12 +42,12 @@
     .intro .intro-slider .logo {
         padding-bottom: 30px;
     }
-    .intro .intro-slider .btn.btn-custom {
-        margin-bottom: 10px;
+    .intro .intro-slider .btn.btn-custom {    	    	opacity:0.7;
+        margin-bottom: 10px;		
 
     }
     .intro .intro-slider .btn.btn-custom,
-    .intro .intro-slider .btn-custom-border {
+    .intro .intro-slider .btn-custom-border {    	    	opacity:0.7;
         min-width: 206px;
     }
 
@@ -61,7 +61,7 @@
     .nav-tabs>li>a {
         width: 209px;		
     }    
-.room_section h1{		font-size: 16px;    line-height: 1.5em;    margin-bottom: 5px;        text-align: center;}.room_section h3{		font-size: 14px;    margin-bottom: 15px;        text-align: center;}
+.room_section h1{		font-size: 20px;        font-weight:bold;}.section-head h3,.room_section h3{		font-size: 14px;        text-align: center;}
 
     /* Intro Section */
     .intro .intro-section {
@@ -161,7 +161,7 @@
         margin-top: 0px;
     }
     .tab-pane figure {
-        margin-bottom: 20px;
+        /*margin-bottom: 20px;*/
     }
 
 
@@ -193,7 +193,7 @@
         display: none;
     }
 
-    .intro .intro-section .btn-custom-border {
+    .intro .intro-section .btn-custom-border {    	    	opacity:0.7;
         margin-bottom: 0px;
     }
 
@@ -260,29 +260,28 @@
 
 @media (max-width: 480px) {
 
-    /* Intro Section */      .intro .intro-slider .item.one {	    background: url(../images/furlencoImages/hero_image_small.jpg);		    background-size: 100% 100%;	}
+    /* Intro Section */      .intro .intro-slider .item.one {	    background: url(../images/furlencoImages/hero_furlenco.jpg);		    background-size: 100% 100%;	}
     .intro .intro-slider .container {
         text-align: center; 
         padding: 30px 0px;
     }
     .intro .intro-slider .container h1 {
-        font-size: 24px;
-    }
+        font-size: 20px;        font-weight : bold;
+    }        .intro .intro-slider .container h4 {        font-size: 12px;    }
 
     .intro .intro-slider .btn-custom,
     .intro .intro-section .btn-custom,
     .intro .intro-slider .btn-custom-border,
-    .intro .intro-section .btn-custom-border {
-        width: 208px;
+    .intro .intro-section .btn-custom-border {    	    	opacity: 0.7;
+        width: 100px;
         margin-bottom: 10px!important;
-    }
+    }        .intro .intro-buttons .btn-custom,    .intro-buttons .btn-custom-border{        width: 150px;                padding:10px 0;        margin-bottom: 10px!important;    }
     
     /* Features Section */
     .features figure img {
-        width: 100%;
-    }        .features h1 {    	font-size:24px;    }        .features p {    	font-size:14px;    }
-
-
+       	display:none;
+    }        .features h4 {    	font-size:14px;    }        .features p {    	font-size:12px;    }        .features .feature .icon-container .icon {		width: 50px;		height: 50px;		border-radius: 50%;		line-height: 50px;		font-size: 32px;		text-align: center;		-webkit-transition: all .15s linear;		-moz-transition: all .15s linear;		-ms-transition: all .15s linear;		-o-transition: all .15s linear;		transition: all .15s linear;	}		.features .features-left .icon-container,    .features .features-right .icon-container {        float: none;        margin: 0px;        min-height: 60px;    }	.section-head h1{		font-size:20px;		font-weight : bold;	}
+
     /* Newsletter Section */
     .newsletter input {
         width: 100%;
@@ -335,6 +334,6 @@
     }
     .download .btn {
         margin-bottom: 10px;
-    }
-
+    }			.underline {			display: inline-block;		width: 200px;		height: 1px;	}		.packages .underline-small {		display: none;	}		.packages .package {		border: 1px solid #e1e1e1;		border-radius: 4px;		padding: 10px 0;	}		.package .package-name{		float: left;		padding-left: 20px;	}		.package .package-name h4{		margin-bottom: 0px;	}		.packages .package .package-price{		font-size: 16px;		font-weight: bold;		float: right;		padding-right: 20px;	}
+		.packages .package .package-features ul li {		margin: 0 0;		font-size:14px;		display: inline;	}		.packages .package .package-features .package-seperator{		display: inline;		font-weight:bold;	}		.packages .package .package-features ul{		margin-top:15px;		padding: 10px;	}		.package_two {		margin-top: 0px;	}
 }
