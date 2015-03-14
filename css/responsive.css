@@ -296,7 +296,7 @@
 
     /* Brief Section */
     .small-slider {
-        margin-top: 30px;
+        /*margin-top: 30px;*/
     }
     .brief figure img {
         max-height: 375px;
