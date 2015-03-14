@@ -300,11 +300,11 @@
     }
     .brief figure img {
         max-height: 375px;
-    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }      .nav-tabs>li>a {        width: 80px;        /*font-size: 14px;*/		    }
+    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }      .nav-tabs>li>a {        width: 80px;        /*font-size: 14px;*/       padding:5px 0;		    }
     .tab-content figure img {
         width: 100%;
         z-index: 0;
-    }
+    }
 
     /* Download Section */
     .download .list-inline {
