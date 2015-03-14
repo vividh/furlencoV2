@@ -53,4 +53,4 @@
 .intro .owl-controls .owl-page.active span, 
 .intro .owl-controls.clickable .owl-page:hover span {
     background: #ffffff;
-}
+}.brief .owl-buttons {	height: 0px;}

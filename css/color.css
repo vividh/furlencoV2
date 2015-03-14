@@ -58,7 +58,7 @@ ul.extra-features i,
 .footer a:hover,
 .footer i:hover {
     color: #DA1F3C;
-}.service i,.service:hover h4{	color: #DA1F3C}
+}.service i,.service:hover h4{	/*color: #DA1F3C*/}
 
 .footer span.jobs:after {
 	border-right-color: #0099e6;

@@ -144,7 +144,7 @@
     }
     .packages .package {
         margin-bottom: 20px;
-    }
+    }        .packages .package-last{    	    	margin-bottom: 0px;    }
     .packages .package.featured {
         margin-top: 0px;
         padding: 30px 0;
@@ -275,7 +275,7 @@
     .intro .intro-section .btn-custom-border {    	    	opacity: 0.7;
         width: 100px;
         margin-bottom: 10px!important;
-    }        .intro .intro-buttons .btn-custom,    .intro-buttons .btn-custom-border{        width: 150px;                padding:10px 0;        margin-bottom: 10px!important;    }
+    }        .intro .intro-buttons .btn-custom,    .intro-buttons .btn-custom-border{        width: 150px;                padding:10px 0;    }
     
     /* Features Section */
     .features figure img {
@@ -311,7 +311,7 @@
     }
     .brief figure img {
         max-height: 375px;
-    }
+    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }
 
     /* Extra Section */
     .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;    }    .nav-tabs>li>a {        width: 100%;    }
@@ -335,5 +335,5 @@
     .download .btn {
         margin-bottom: 10px;
     }			.underline {			display: inline-block;		width: 200px;		height: 1px;	}		.packages .underline-small {		display: none;	}		.packages .package {		border: 1px solid #e1e1e1;		border-radius: 4px;		padding: 10px 0;	}		.package .package-name{		float: left;		padding-left: 20px;	}		.package .package-name h4{		margin-bottom: 0px;	}		.packages .package .package-price{		font-size: 16px;		font-weight: bold;		float: right;		padding-right: 20px;	}
-		.packages .package .package-features ul li {		margin: 0 0;		font-size:14px;		display: inline;	}		.packages .package .package-features .package-seperator{		display: inline;		font-weight:bold;	}		.packages .package .package-features ul{		margin-top:15px;		padding: 10px;	}		.package_two {		margin-top: 0px;	}
+		.packages .package .package-features ul li {		margin: 0 0;		font-size:14px;		display: inline;	}		.packages .package .package-features .package-seperator{		display: inline;		font-weight:bold;	}		.packages .package .package-features ul{		margin-top:15px;		padding: 10px;	}		.package_two {		margin-top: 0px;	}		.services .service h4 {    	font-size:14px;    	margin-bottom: 0px;    }        .services .service p {    	font-size:12px;    }        .service i {		margin-bottom: 0px;	}		.service {		margin-bottom: 10px;	}
 }
