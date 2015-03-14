@@ -222,18 +222,7 @@
     .navbar-default .navbar-toggle:hover, 
     .navbar-default .navbar-toggle:focus {
         background-color:#F9405D ;
-    }
-
-    /* Extra Section */
-    .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;    }    .nav-tabs>li>a {        width: 100%;    }
-    .nav-tabs>li:first-child>a {
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 0px;
-    }
-    .nav-tabs>li:last-child>a {
-        border-bottom-left-radius: 4px;
-        border-top-right-radius: 0px;
-    }
+    }		.nav-tabs>li>a {        width: 150px;		    }
 
     /* Newsletter Section */
     .newsletter input {
@@ -311,18 +300,7 @@
     }
     .brief figure img {
         max-height: 375px;
-    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }
-
-    /* Extra Section */
-    .nav-tabs {        display: block;    }    .nav-tabs>li {        float: none;        width: 100%;        display: block;                font-size: 14px;    }    .nav-tabs>li>a {        width: 100%;    }
-    .nav-tabs>li:first-child>a {
-        border-top-right-radius: 4px;
-        border-bottom-left-radius: 0px;
-    }
-    .nav-tabs>li:last-child>a {
-        border-bottom-left-radius: 4px;
-        border-top-right-radius: 0px;
-    }
+    }        .packages .list-inline .btn-custom,       .packages .list-inline .btn-custom-border{        width: 150px;                padding:10px 0;    }        .brief .list-inline .btn-custom,    .brief .list-inline .btn-custom-border{        width: 140px;                padding:10px 0;                font-size: 16px;    }      .nav-tabs>li>a {        width: 80px;        /*font-size: 14px;*/		    }
     .tab-content figure img {
         width: 100%;
         z-index: 0;
