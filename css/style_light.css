@@ -238,7 +238,7 @@ ul.extra-features i {
 .download .btn {
 	width: 208px;	padding: 17px 0;}
 .download .list-inline {
-	display: table;	margin: 0 auto;}.list-inline {	display: table;	margin: 0px auto;}.intro-buttons .list-inline {	display: table;	margin: 10px auto 20px;}.brief .list-inline{	display: table;	margin:10px auto;}.packages .list-inline{	display: table;	margin:0px auto 0px;}
+	display: table;	margin: 0 auto;}.list-inline {	display: table;	margin: 0px auto;}.intro-buttons .list-inline {	display: table;	margin: 10px auto 20px;}.brief .list-inline{	display: table;	margin:10px auto;}.packages .list-inline{	display: table;	margin:0px auto 0px;}.features .list-inline,.services .list-inline{	display: table;	margin: 0 auto;}
 /* Footer Section */
 .footer {
 	padding: 30px 0 20px 0;	background-color: #FFFFFF;}
