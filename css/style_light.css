@@ -261,4 +261,4 @@ ul.extra-features i {
 .footer i {
 	font-size: 16px;}
 .footer h4 {
-	margin-bottom: 5px;}#call-back-collapse .collapse{	display: none;	overflow: hidden;}#call-back-collapse .modal-body {    position: relative;  	padding: 0;}#call-back-collapse .modal-content {    -webkit-background-clip: border;    background-clip: border-box;    border: none;    outline: 0;    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .5);    box-shadow: 0 0 0 rgba(0, 0, 0, .5)}
+	margin-bottom: 5px;}#call-back-collapse .collapse{	display: block;	visibility: visible !important;}#call-back-collapse .modal-body {    position: relative;  	padding: 0;}#call-back-collapse .modal-content {    -webkit-background-clip: border;    background-clip: border-box;    border: none;    outline: 0;    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .5);    box-shadow: 0 0 0 rgba(0, 0, 0, .5)}
