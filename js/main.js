@@ -45,10 +45,10 @@ $(document).ready(function() {
 	});
 
 	/* Buttons Scroll to Div */
-	$('.navbar-brand').click(function () {
+	$('.navbar-brand').click(function () {		
 		$.scrollTo('.intro', 1000);
 	return false;
-	});		$('.btn-brief, a.mouse').click(function () {		$.scrollTo('.brief', 1000);	return false;	});	$('.btn-benefits, a.mouse').click(function () {		$.scrollTo('.packages', 1000);	return false;	});		$('.btn-subscription, a.mouse').click(function () {		$.scrollTo('.features', 1000);	return false;	});
+	});		$('.btn-brief, a.mouse').click(function () {		_gaq.push(['_trackEvent', 'explore-solutions', 'clicked']);			$.scrollTo('.brief', 1000);	return false;	});	$('.btn-benefits, a.mouse').click(function () {		_gaq.push(['_trackEvent', 'explore-packages', 'clicked']);			$.scrollTo('.packages', 1000);	return false;	});		$('.btn-subscription, a.mouse').click(function () {		_gaq.push(['_trackEvent', 'explore-benefits', 'clicked']);			$.scrollTo('.features', 1000);	return false;	});
 
 	// Screenshot carousel
 	$(".screens").owlCarousel({
