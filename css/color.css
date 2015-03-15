@@ -32,10 +32,8 @@
 .navbar-default .navbar-toggle {
     background-color: #DA1F3C
 }
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus,
-{
-    background-color: #f9405d
+.fa-bars{
+	color:#FFFFFF;
 }
 .btn-custom:hover,
 .btn-custom-border:hover {

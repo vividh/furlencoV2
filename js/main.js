@@ -24,11 +24,11 @@ $(document).ready(function() {
     }), $(".navbar-brand").click(function() {
         return $.scrollTo(".intro", 1e3), !1
     }), $(".btn-brief, a.mouse").click(function() {
-        return $.scrollTo(".brief", 1e3), !1
+        return $.scrollTo(".brief", 1e3,{offset:-65}), !1
     }), $(".btn-benefits, a.mouse").click(function() {
-        return $.scrollTo(".packages", 1e3), !1
+        return $.scrollTo(".packages", 1e3,{offset:-65}), !1
     }), $(".btn-subscription, a.mouse").click(function() {
-        return $.scrollTo(".features", 1e3), !1
+        return $.scrollTo(".features", 1e3,{offset:-65}), !1
     }), $(".screens").owlCarousel({
         items: 4,
         navigation: !0,
@@ -51,7 +51,6 @@ $(document).ready(function() {
         itemsMobile: !1
     }), $(".testemonials").owlCarousel({
         autoPlay: 8e3,
-        autoHeight: !0,
         singleItem: !0,
         navigation: !1,
         itemsDesktop: [1e3, 1],
