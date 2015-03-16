@@ -64,7 +64,7 @@ ul.extra-features{max-width:100%}
 .download .list-inline>li{display:block;margin-bottom:10px}
 .footer{text-align:center}
 }
-@media (max-width:480px){.intro .intro-slider .item.one{background:url(../images/furlencoImages/hero_furlenco.jpg);background-size:100% 100%}
+@media (max-width:480px){.intro .intro-slider .item.one{/*background:url(../images/furlencoImages/hero_furlenco.jpg);*/background-size:100% 100%;}
 .intro .intro-slider .container{text-align:center;padding:30px 0px}
 .intro .intro-slider .container h1{font-size:20px;font-weight:bold}
 .intro .intro-slider .container h4{font-size:12px}
