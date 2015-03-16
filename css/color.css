@@ -16,7 +16,7 @@
 .btn-slide:hover{opacity:0.7;background-color:#696969;border-color:#696969}
 .footer span.jobs{background-color:#696969}
 .btn-slide{opacity:0.5;background-color:#696969}
-.features .feature:hover .icon-container .icon{background-color:#da1f3c}
+.features .feature:hover .icon-container .icon{/*background-color:#da1f3c*/}
 .underline{border-top:4px solid #da1f3c}
 .underline-small{border-top:2px solid #0099e6}
 .navbar-default .navbar-nav>li>a:hover,
